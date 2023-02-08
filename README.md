@@ -17,9 +17,3 @@ Gíria em inglês britânico para cabeça dura
 
 <br>
 
-> ### Configuração
-> - git config --global user.name  CARVALHO
-> - git config --global user.email marcos.antonio.carvalho@gmail.com
-> - git config --list
-
-<br><br><br>
