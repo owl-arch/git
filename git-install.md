@@ -5,8 +5,21 @@
 
 # GIT 
 
+<br><br>
 
-> ### Configuração
-> - git config --global user.name  CARVALHO
-> - git config --global user.email marcos.antonio.carvalho@gmail.com
-> - git config --list
+## Baixe e Instale
+
+- [Download do GIT](https://git-scm.com/downloads)
+
+<br>
+
+## Configuração
+
+- git config --global user.name  CARVALHO
+- git config --global user.email marcos.antonio.carvalho@gmail.com
+- git config --list
+
+<br>
+
+Referências
+- [Logos do Git para projetos](https://git-scm.com/downloads/logos)
