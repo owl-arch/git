@@ -7,9 +7,16 @@
 
 <br><br>
 
-## Baixe e Instale
+## Windows - Baixe e Instale
 
 - [Download do GIT](https://git-scm.com/downloads)
+
+## Ubuntu 22.04
+
+```bash
+sudo apt update
+sudo apt install git
+```
 
 <br>
 
