@@ -68,3 +68,8 @@ XXXXXXXXXXXXXX
 ```bash
 git clone git@github.com:dev-carvalho/teste.git
 ```
+
+<br>
+
+#### Referência:
+- https://rogerioadris.medium.com/atualize-sua-chave-ssh-para-ed25519-8cf5a7d4b18
