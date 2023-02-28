@@ -22,8 +22,8 @@ sudo apt install git
 
 ## Configuração
 
-- git config --global user.name  CARVALHO
-- git config --global user.email marcos.antonio.carvalho@gmail.com
+- git config --global user.name  "Marcos Carvalho"
+- git config --global user.email "marcos.antonio.carvalho@gmail.com"
 - git config --list
 
 <br>
