@@ -10,23 +10,24 @@ Não coloque senha!
 
 ```bash
 Generating public/private ed25519 key pair.
+Created directory '/root/.ssh'.
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in /root/.ssh/dev-carvalho_ed25519
-Your public key has been saved in /root/.ssh/dev-carvalho_ed25519.pub
+Your identification has been saved in /root/.ssh/id_ed25519
+Your public key has been saved in /root/.ssh/id_ed25519.pub
 The key fingerprint is:
 SHA256:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX marcos.antonio.carvalho@gmail.com
 The key's randomart image is:
 +--[ED25519 256]--+
-|Eo+o   .oo. .... |
-|*oo+.   .+ o oo  |
-|.+o .o  =.= ..   |
-| +  o ...*. . .  |
-|. .  o .So.. .   |
-|    .  =.+..     |
-|      . o . . o  |
-|       .   . . o |
-|        .oo.o..  |
+| .    .o.+E.     |
+|. .   =oo  o     |
+|.o   +.=...      |
+| .o   +.o.       |
+|.  +.o..S        |
+|. o.Xo+ o        |
+| o.* @.o .       |
+|.o .* =..        |
+|.o+  o++         |
 +----[SHA256]-----+
 ```
 
@@ -52,7 +53,7 @@ Agent pid 5948
 
 #### Adicionar sua nova Chave Privada ~/.ssh/dev-carvalho_ed25519 ao agente SSH
 ```bash
-ssh-add  ~/.ssh/dev-carvalho_ed25519
+ssh-add  ~/.ssh/id_ed25519
 ```
 ```bash
 Enter passphrase for /root/.ssh/dev-carvalho_ed25519:
