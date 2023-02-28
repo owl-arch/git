@@ -58,3 +58,13 @@ ssh-add  ~/.ssh/dev-carvalho_ed25519
 Enter passphrase for /root/.ssh/dev-carvalho_ed25519:
 Identity added: /root/.ssh/dev-carvalho_ed25519 (marcos.antonio.carvalho@gmail.com)
 ```
+
+### Adicione a Chave Pública no Github
+XXXXXXXXXXXXXX
+XXXXXXXXXXXXXX
+XXXXXXXXXXXXXX
+
+#### Teste utilizando o endereçamento para git para ssh
+```bash
+git clone git@github.com:dev-carvalho/teste.git
+```
