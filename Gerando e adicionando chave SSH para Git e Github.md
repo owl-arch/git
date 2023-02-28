@@ -6,7 +6,7 @@ Abra seu terminal e digite o seguinte o comando para gerar uma nova chave SSH qu
 ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/dev-carvalho_ed25519 -C "marcos.antonio.carvalho@gmail.com"
 ```
 
-Informe uma senha e Voalá!
+Informe uma senha FORTE e Voalá!
 
 ```bash
 Generating public/private ed25519 key pair.
@@ -45,10 +45,16 @@ The key's randomart image is:
 #### Antes de adicionar sua nova chave privada ao agente SSH, certifique-se de que o agente SSH esteja rodando
 ```bash
 eval "$(ssh-agent -s)"
+```
+```bash
 Agent pid 5948
 ```
 
 #### Adicionar sua nova Chave Privada ~/.ssh/dev-carvalho_ed25519 ao agente SSH
 ```bash
 ssh-add  ~/.ssh/dev-carvalho_ed25519
+```
+```bash
+Enter passphrase for /root/.ssh/dev-carvalho_ed25519:
+Identity added: /root/.ssh/dev-carvalho_ed25519 (marcos.antonio.carvalho@gmail.com)
 ```
