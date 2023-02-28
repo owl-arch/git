@@ -3,10 +3,10 @@
 Abra seu terminal e digite o seguinte o comando para gerar uma nova chave SSH que usa o algoritmo Ed25519:
 
 ```bash
-ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/dev-carvalho_ed25519 -C "marcos.antonio.carvalho@gmail.com"
+ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "marcos.antonio.carvalho@gmail.com"
 ```
 
-Informe uma senha FORTE e Voalá!
+Não coloque senha!
 
 ```bash
 Generating public/private ed25519 key pair.
