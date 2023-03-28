@@ -61,10 +61,10 @@ Enter passphrase for /root/.ssh/dev-carvalho_ed25519:
 Identity added: /root/.ssh/dev-carvalho_ed25519 (marcos.antonio.carvalho@gmail.com)
 ```
 
-### Adicione a Chave Pública no Github
-XXXXXXXXXXXXXX
-XXXXXXXXXXXXXX
-XXXXXXXXXXXXXX
+## Adicione a Chave Pública no Github
+
+- use esse roteiro esse [roteiro do GitHub](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) para instalar a chave pública no GitHub.
+
 
 #### Teste utilizando o endereçamento para git para ssh
 ```bash
