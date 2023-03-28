@@ -45,6 +45,7 @@ The key's randomart image is:
 
 #### Antes de adicionar sua nova chave privada ao agente SSH, certifique-se de que o agente SSH esteja rodando
 ```bash
+# start the ssh-agent in the background
 eval "$(ssh-agent -s)"
 ```
 ```bash
